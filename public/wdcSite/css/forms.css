@@ -1,0 +1,77 @@
+/**********************form**********************/
+.map {width:334px; height:294px; margin:23px 0 0 0;}
+.map iframe {	
+  width:334px;
+  height:292px;
+}
+.dl1 {margin:98px 0px 0 0px; float:left;}
+.dl1 dt {}
+.dl1 dd span { display:block; width:71px; float:left;}
+.dl1 dd {}
+.dl1 dd a {}
+#form { margin: 23px 0 0px 0px; width:350px; }
+#form input {
+	border:#dadada 1px solid;
+	background:#ffffff;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px;
+	color:#828387; 
+	padding:8px 2px 8px 14px;
+    outline: medium none;
+    width: 212px;
+	height:15px;
+	float:left;
+}
+#form textarea {
+	border:#dadada 1px solid;
+	background:#ffffff;
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px;
+	color:#828387; 
+    height: 200px;
+    outline: medium none;
+    overflow: auto;
+    padding: 8px 0px 0px 14px;
+    width: 319px;
+	resize:none;
+	margin:0px 0 0 0;
+	float:left;
+}
+#form label {
+	position:relative;
+    display: block;
+    min-height:45px;
+}
+#form .error, #form .empty {
+    color: #FF0000;
+    display: none;
+    font-size: 10px;
+	line-height:14px;
+	width:115px;
+	float:left;
+	margin-top:2px;
+}
+#form .error-empty {margin: 4px 0 0 5px !important; display:none; float:left;}
+#form .success {
+    background: none repeat scroll 0 0 #f6f6f5;
+    border: 1px solid #333333;
+    display: none;
+    height: 121px;
+    position: absolute;
+    width: 228px;
+    z-index: 1;
+}
+
+#form .success .success_txt {
+    color: #000;
+    position: relative;
+    text-align: center;
+    top: 31%;
+}
+
+#form .message .error,
+#form .message .empty  {
+	left: 0px;
+	position:absolute;
+    top: 193px;
+}

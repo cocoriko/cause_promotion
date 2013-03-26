@@ -1,0 +1,3 @@
+*+html{overflow:auto;}
+.button-1 {behavior:url(js/PIE.htc); position:relative;}
+a.tooltips:hover img {filter:alpha(opacity=70);}

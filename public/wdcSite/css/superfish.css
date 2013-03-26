@@ -1,0 +1,17 @@
+.sf-menu ul {position:absolute; top:-999px; display:none;/* left offset of submenus need to match (see below) */}
+.sf-menu li {position:relative; float:left; }
+.sf-menu a {display:block;}
+ul.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul {top:-999px; display:none;}
+/*** DEMO SKIN ***/
+nav ul.sf-menu:first-child { margin-left:0px;}
+
+ul.sf-menu>li { border-top:#c2bfbb 1px solid; margin-left:34px;}
+ul.sf-menu>li>a { font-family:Arial, Helvetica, sans-serif; line-height:20px; font-size:14px; color:#989898; font-weight:normal; text-decoration:none; padding: 9px 10px 8px 10px; }
+ul.sf-menu>li.current , ul.sf-menu>li.sfHover , ul.sf-menu>li:hover { border-top:#84b607 1px solid;}
+ul.sf-menu>li.current>a, ul.sf-menu>li.sfHover>a, ul.sf-menu>li>a:hover {color:#1f1f1f; }
+
+ul.sf-menu li.sfHover ul { left:0px; top:39px; width:122px; background:#f6f6f5; border:#dcdbd8 1px solid; border-bottom:none;}
+ul.sf-menu li>ul>li, ul.sf-menu li.sfHover>ul>li { border-bottom:#dcdbd8 1px solid;  width:122px;}
+ul.sf-menu li.sfHover>ul>li>a { font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:15px; color:#989898;  padding: 8px 8px 6px 8px; display:block; }
+ul.sf-menu li.sfHover>ul>li:hover, ul.sf-menu li.sfHover>ul>li.sfHover{  border-bottom:#81b400 1px solid;}
+ul.sf-menu li.sfHover>ul>li:hover>a {color:#454545;}
